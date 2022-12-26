@@ -19,6 +19,7 @@ public class CountSymbols {
                 list.replace(ch, list.get(ch) + 1);
             }
         }
+
         for (Map.Entry<Character, Integer> ch : list.entrySet()) {
             System.out.printf("%c: %d time/s\n", ch.getKey(), ch.getValue());
         }
