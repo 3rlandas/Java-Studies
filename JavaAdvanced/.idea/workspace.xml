@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="956fe188-c7de-412e-96e7-212a56943c38" name="Default Changelist" comment="finished">
-      <change afterPath="$PROJECT_DIR$/resources/04. Java-Advanced-Files-and-Streams-Lab-Resources/serialization.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cube.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SerializeCustonObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="956fe188-c7de-412e-96e7-212a56943c38" name="Default Changelist" comment="finished" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -273,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674331333298</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="finished">
+      <created>1674334696780</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1674334696780</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
