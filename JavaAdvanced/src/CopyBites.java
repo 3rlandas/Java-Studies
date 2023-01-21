@@ -3,8 +3,8 @@ import java.io.*;
 public class CopyBites {
     public static void main(String[] args) {
 
-        String inputPath = "C:\\Coding\\Java-Studies\\JavaAdvanced\\resources\\input.txt";
-        String outputPath = "C:\\Coding\\Java-Studies\\JavaAdvanced\\resources\\03.CopyBytesOutput.txt";
+        String inputPath = "C:\\Coding\\Java-Studies\\JavaAdvanced\\resources\\04. Java-Advanced-Files-and-Streams-Lab-Resources\\Files-and-Streams\\input.txt";
+        String outputPath = "C:\\Coding\\Java-Studies\\JavaAdvanced\\resources\\04. Java-Advanced-Files-and-Streams-Lab-Resources\\03.CopyBytesOutput.txt";
 
         try (FileInputStream fileInputStream = new FileInputStream(inputPath);
              OutputStream outputStream = new FileOutputStream(outputPath)) {

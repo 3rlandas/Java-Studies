@@ -6,9 +6,9 @@ import java.util.List;
 public class WriteToFile {
     public static void main(String[] args) {
 
-        String inputPath = "C:\\Coding\\Java-Studies\\JavaAdvanced\\resources\\input.txt";
+        String inputPath = "C:\\Coding\\Java-Studies\\JavaAdvanced\\resources\\04. Java-Advanced-Files-and-Streams-Lab-Resources\\input.txt";
 
-        String outputPatch = "C:\\Coding\\Java-Studies\\JavaAdvanced\\resources\\02.WriteToFileOutput.txt";
+        String outputPatch = "C:\\Coding\\Java-Studies\\JavaAdvanced\\resources\\04. Java-Advanced-Files-and-Streams-Lab-Resources\\02.WriteToFileOutput.txt";
 
         List<Character> symbols = new ArrayList<>();
 

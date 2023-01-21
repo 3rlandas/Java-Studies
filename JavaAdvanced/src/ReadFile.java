@@ -4,7 +4,7 @@ import java.io.IOException;
 public class ReadFile {
     public static void main (String[] args){
 
-        String path = "C:\\Coding\\Java-Studies\\JavaAdvanced\\resources\\input.txt";
+        String path = "C:\\Coding\\Java-Studies\\JavaAdvanced\\resources\\04. Java-Advanced-Files-and-Streams-Lab-Resources\\input.txt";
 
         try(FileInputStream fileStream = new FileInputStream(path)) {
 
