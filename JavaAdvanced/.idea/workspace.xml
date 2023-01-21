@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="956fe188-c7de-412e-96e7-212a56943c38" name="Default Changelist" comment="finished">
+      <change afterPath="$PROJECT_DIR$/src/ListFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NestedFolders.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/CopyBites.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/CopyBites.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/04. Java-Advanced-Files-and-Streams-Lab-Resources/03.CopyBytesOutput.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/04. Java-Advanced-Files-and-Streams-Lab-Resources/03.CopyBytesOutput.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CopyBites.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CopyBites.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/ReadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaAdvanced/ReadFile.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674328145983</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="finished">
+      <created>1674328609701</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1674328609701</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,6 +315,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/NestedFolders.java</url>
+          <line>5</line>
+          <properties class="NestedFolders" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NumberFormatException" package="java.lang" />
