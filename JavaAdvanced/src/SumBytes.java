@@ -1,14 +1,15 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
 public class SumBytes {
     public static void main(String[] args) {
 
         String inputPath = "C:\\Coding\\Java-Studies\\JavaAdvanced\\resources\\04-Java-Advanced-Files-and-Streams-Exercise-Resources\\input.txt";
+        String outputPath = "C:\\Coding\\Java-Studies\\JavaAdvanced\\resources\\04-Java-Advanced-Files-and-Streams-Exercise-Resources\\SumBytesOutput";
+
 
         try {
             BufferedReader bufferedReader = new BufferedReader(new FileReader(inputPath));
+            PrintWriter printWriter = new PrintWriter(new FileWriter(outputPath));
 
             String line = bufferedReader.readLine();
 
@@ -20,7 +21,8 @@ public class SumBytes {
                 }
                 line = bufferedReader.readLine();
             }
-            System.out.println(count);
+            printWriter.println(count);
+            printWriter.close();
 
         } catch (IOException e) {
             e.printStackTrace();

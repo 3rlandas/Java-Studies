@@ -5,7 +5,7 @@ public class CapitalLetters {
 
         String inputPath = "C:\\Coding\\Java-Studies\\JavaAdvanced\\resources\\04-Java-Advanced-Files-and-Streams-Exercise-Resources\\input.txt";
 
-        String outputPath = "C:\\Coding\\Java-Studies\\JavaAdvanced\\resources\\04-Java-Advanced-Files-and-Streams-Exercise-Resources\\output.txt";
+        String outputPath = "C:\\Coding\\Java-Studies\\JavaAdvanced\\resources\\04-Java-Advanced-Files-and-Streams-Exercise-Resources\\CapitalLettersOutput";
 
         try {
             BufferedReader bufferedReader = new BufferedReader(new FileReader(inputPath));
@@ -17,8 +17,10 @@ public class CapitalLetters {
 
                 printWriter.println(line.toUpperCase());
 
+
                 line = bufferedReader.readLine();
             }
+            printWriter.close();
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="956fe188-c7de-412e-96e7-212a56943c38" name="Default Changelist" comment="finished">
+      <change afterPath="$PROJECT_DIR$/resources/04-Java-Advanced-Files-and-Streams-Exercise-Resources/CapitalLettersOutput" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/04-Java-Advanced-Files-and-Streams-Exercise-Resources/SumBytesOutput" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/04-Java-Advanced-Files-and-Streams-Exercise-Resources/SumLinesOutput" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CountCharacterTypes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/04-Java-Advanced-Files-and-Streams-Exercise-Resources/Exercises Resources/Exercises Resources.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/04-Java-Advanced-Files-and-Streams-Exercise-Resources/Exercises Resources/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/04-Java-Advanced-Files-and-Streams-Exercise-Resources/Exercises Resources/inputLineNumbers.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/04-Java-Advanced-Files-and-Streams-Exercise-Resources/Exercises Resources/inputOne.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/04-Java-Advanced-Files-and-Streams-Exercise-Resources/Exercises Resources/inputTwo.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/04-Java-Advanced-Files-and-Streams-Exercise-Resources/Exercises Resources/text.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/04-Java-Advanced-Files-and-Streams-Exercise-Resources/Exercises Resources/words.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/04-Java-Advanced-Files-and-Streams-Exercise-Resources/cat.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/04-Java-Advanced-Files-and-Streams-Exercise-Resources/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/resources/04-Java-Advanced-Files-and-Streams-Exercise-Resources/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CapitalLetters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CapitalLetters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SumBytes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SumBytes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SumLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SumLines.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -343,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674397351150</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="finished">
+      <created>1674398652795</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1674398652795</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
