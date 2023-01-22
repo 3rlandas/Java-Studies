@@ -1,14 +1,10 @@
 import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.List;
-import java.util.Locale;
-
 
 public class CapitalLetters {
     public static void main(String[] args) {
 
         String inputPath = "C:\\Coding\\Java-Studies\\JavaAdvanced\\resources\\04-Java-Advanced-Files-and-Streams-Exercise-Resources\\input.txt";
+
         String outputPath = "C:\\Coding\\Java-Studies\\JavaAdvanced\\resources\\04-Java-Advanced-Files-and-Streams-Exercise-Resources\\output.txt";
 
         try {
@@ -19,16 +15,10 @@ public class CapitalLetters {
 
             while (line != null) {
 
-
-                printWriter.println(line);
+                printWriter.println(line.toUpperCase());
 
                 line = bufferedReader.readLine();
-
             }
-
-
-
-
         } catch (IOException e) {
             e.printStackTrace();
         }
