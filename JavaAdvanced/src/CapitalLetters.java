@@ -1,5 +1,9 @@
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.List;
 import java.util.Locale;
+
 
 public class CapitalLetters {
     public static void main(String[] args) {
@@ -13,16 +17,20 @@ public class CapitalLetters {
 
             String line = bufferedReader.readLine();
 
-            while (line != null){
+            while (line != null) {
 
-                printWriter.write(line.toUpperCase());
+
+                printWriter.println(line);
 
                 line = bufferedReader.readLine();
+
             }
+
+
+
 
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 }
