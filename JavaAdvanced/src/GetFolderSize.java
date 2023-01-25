@@ -11,9 +11,7 @@ public class GetFolderSize {
         String fileName = "C:\\Coding\\Java-Studies\\JavaAdvanced\\resources\\04-Java-Advanced-Files-and-Streams-Exercise-Resources\\Exercises Resources";
         String outputPath = "C:\\Coding\\Java-Studies\\JavaAdvanced\\resources\\04-Java-Advanced-Files-and-Streams-Exercise-Resources\\GetFolderFileOutput";
 
-
         Path filePath = Paths.get(fileName);
-
 
         try {
             PrintWriter printWriter = new PrintWriter(new FileWriter(outputPath));
@@ -23,7 +21,5 @@ public class GetFolderSize {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-
     }
 }

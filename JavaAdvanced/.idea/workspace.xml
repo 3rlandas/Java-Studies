@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="956fe188-c7de-412e-96e7-212a56943c38" name="Default Changelist" comment="finished">
-      <change afterPath="$PROJECT_DIR$/resources/04-Java-Advanced-Files-and-Streams-Exercise-Resources/GetFolderFileOutput" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/04-Java-Advanced-Files-and-Streams-Exercise-Resources/MergeTwoFilesOutput" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GetFolderSize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MergeTwoFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/04-Java-Advanced-Files-and-Streams-Exercise-Resources/cat-copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/04-Java-Advanced-Files-and-Streams-Exercise-Resources/cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CopyAPicture.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GetFolderSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GetFolderSize.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +80,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Coding\Java-Studies\JavaAdvanced\resources\04-Java-Advanced-Files-and-Streams-Exercise-Resources" />
+      <recent name="C:\Coding\Java-Studies\JavaAdvanced\resources\04-Java-Advanced-Files-and-Streams-Exercise-Resources\Exercises Resources" />
       <recent name="C:\Coding\Java-Studies\JavaAdvanced\resources" />
       <recent name="C:\Coding\Java-Studies\JavaAdvanced\recources" />
     </key>
@@ -373,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674504815880</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="finished">
+      <created>1674597127032</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1674597127032</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
