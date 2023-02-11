@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="956fe188-c7de-412e-96e7-212a56943c38" name="Default Changelist" comment="finished">
-      <change afterPath="$PROJECT_DIR$/resources/04-Java-Advanced-Files-and-Streams-Exercise-Resources/files.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreateZipArchive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CustonObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LootBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LegendaryFarmingTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReVolt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SerializeArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SerializeArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaAdvanced/CreateZipArchive.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -390,7 +387,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674675245926</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="finished">
+      <created>1675710919317</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1675710919317</updated>
+    </task>
+    <task id="LOCAL-00044" summary="finished">
+      <created>1675710982374</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1675710982374</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
