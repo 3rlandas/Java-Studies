@@ -1,30 +1,46 @@
-/*public class BeePractice {
+import java.util.Scanner;
 
+public class BeePractice {
+    public static void main(String[] args) {
 
-    public class BeeGameGrid
-    {
-        private string[][] _grid;
-        private int _currentRow;
-        private int _currentColumn;
-        public int FlowersCollected;
+        Scanner scanner = new Scanner(System.in);
 
-        public BeeGameGrid(string[][] initializedGrid, int currentRow = 0, int currentColumn = 0)
-        {
-            _grid = initializedGrid;
-            _currentRow = currentRow;
-            _currentColumn = currentColumn;
+        boolean outOfBounds = false;
+
+        int n = Integer.parseInt(scanner.nextLine());
+        char[][] matrix = new char[n][n];
+        for (int row = 0; row < n; row++) {
+            char[] input = scanner.nextLine().toCharArray();
+            for (int column = 0; column < matrix[row].length; column++) {
+
+                matrix[row][column] = input[column];
+            }
+        }
+        BeeGameGrid game = new BeeGameGrid(matrix);
+
+        while (true) {
+
+            String command = scanner.nextLine();
+
+            if (command.equals("End")) {
+                break;
+            }
+
+            outOfBounds = game.MoveBee(command);
+
+            if (outOfBounds) {
+                break;
+            }
         }
 
-
-        public bool MoveBee(string direction)
-        {
-            bool isOutOfBounds = false;
-
-            //Logic using given direction
-            //Update as needed CurrentRow and CurrentColumn
-            //Set FlowersCollected
-
-            return isOutOfBounds;
+        if (outOfBounds) {
+            System.out.println("The bee got lost!");
         }
+        if (game.FlowersCollected >= 5) {
+            System.out.printf("Great job, the bee manage to pollinate %d flowers!\n", game.FlowersCollected);
+        } else {
+            System.out.printf("The bee couldn't pollinate the flowers, she needed %d flowers more\n", (5 - game.FlowersCollected));
+        }
+        game.PrintGrid();
     }
-}*/
+}

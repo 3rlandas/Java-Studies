@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 public class Bee {
     public static void main(String[] args) {
@@ -129,5 +129,5 @@ public class Bee {
         int beePositionRow = 0;
         boolean isOutOfTerritory = false;
     }
-}
+}*/
 
